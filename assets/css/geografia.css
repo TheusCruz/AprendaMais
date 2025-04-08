@@ -1,0 +1,299 @@
+main {
+    width: 100%;
+    height: 70vw;
+
+    #linha {
+        width: 80%;
+        height: 5vw;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-left: 9vw;
+        margin-top: 1vw;
+
+        hr {
+            width: 80%;
+            border: 0.2vw solid #44A1A0;
+        }
+
+        span {
+            font-size: 2.4vw;
+            font-weight: 700;
+            color: #44A1A0;
+
+            margin-right: 2vw;
+        }
+    }
+
+    .brasil {
+
+        img {
+            width: 10.561vw;
+
+            position: absolute;
+            top: 58.619vw;
+            left: 27.31vw;
+        }
+
+        img:hover {
+            width: 11.561vw;
+            cursor: help;
+        }
+    }
+
+    .america-do-sul {
+
+        img {
+            width: 8.1vw;
+
+            position: absolute;
+            top: 56.53vw;
+            left: 25.2vw;
+        }
+
+        img:hover {
+            width: 9.1vw;
+            cursor: help;
+        }
+    }
+
+    .america-central {
+
+        img {
+            width: 15.8vw;
+
+            position: absolute;
+            top: 48.47vw;
+            left: 13.87vw;
+        }
+
+        img:hover {
+            width: 16.8vw;
+            cursor: help;
+        }
+    }
+
+    .america-do-norte {
+
+        img {
+            width: 33.4vw;
+
+            position: absolute;
+            top: 16.35vw;
+            left: 0.02vw;
+        }
+
+        img:hover {
+            width: 34.4vw;
+            cursor: help;
+        }
+    }
+
+    .groenlandia {
+
+        img {
+            width: 16.2vw;
+
+            position: absolute;
+            top: 15vw;
+            left: 27.8vw;
+        }
+
+        img:hover {
+            width: 17.2vw;
+            cursor: help;
+        }
+    }
+
+    .africa {
+
+        img {
+            width: 18.8vw;
+
+            position: absolute;
+            top: 48.4vw;
+            left: 42.63vw;
+        }
+
+        img:hover {
+            width: 19.8vw;
+            cursor: help;
+        }
+    }
+
+    .australia {
+
+        img {
+            width: 18vw;
+
+            position: absolute;
+            top: 62.5vw;
+            left: 78.1vw;
+        }
+
+        img:hover {
+            width: 19vw;
+            cursor: help;
+        }
+    }
+
+    .oriente-medio {
+
+        img {
+            width: 10.1vw;
+
+            position: absolute;
+            top: 46.77vw;
+            left: 54.51vw;
+        }
+
+        img:hover {
+            width: 11.1vw;
+            cursor: help;
+        }
+    }
+
+    .sul-da-asia {
+
+        img {
+            width: 28.3vw;
+
+            position: absolute;
+            top: 41.7vw;
+            left: 60.1vw;
+        }
+
+        img:hover {
+            width: 29.3vw;
+            cursor: help;
+        }
+    }
+
+    .norte-da-asia-e-europa {
+
+        img {
+            width: 54.1vw;
+
+            position: absolute;
+            top: 19.444vw;
+            left: 44.81vw;
+        }
+
+        img:hover {
+            width: 55.1vw;
+            cursor: help;
+        }
+    }
+
+    .oceano-pacifico {
+
+        h2 {
+            width: 2vw;
+            font-weight: 600;
+            font-size: larger;
+            
+            display: flex;
+            text-align: center;
+
+            position: absolute;
+            top: 55vw;
+            left: 7vw;
+        }
+
+        h2:hover {
+            font-size: x-large;
+            color: rgba(0, 0, 0, 0.52);
+            cursor: help;
+        }
+    }
+
+    .oceano-atlantico {
+
+        h2 {
+            width: 2vw;
+            font-weight: 600;
+            font-size: larger;
+
+            display: flex;
+            text-align: center;
+
+            position: absolute;
+            top: 47vw;
+            left: 33vw;
+        }
+
+        h2:hover {
+            font-size: x-large;
+            color: rgba(0, 0, 0, 0.52);
+            cursor: help;
+        }
+    }
+
+    .oceano-artico {
+
+        h2 {
+            width: 2vw;
+            font-weight: 600;
+            font-size: larger;
+
+            display: flex;
+            text-align: center;
+
+            position: absolute;
+            top: 27.5vw;
+            left: 55vw;
+        }
+
+        h2:hover {
+            font-size: x-large;
+            color: rgba(0, 0, 0, 0.52);
+            cursor: help;
+        }
+    }
+
+    .oceano-indico {
+
+        h2 {
+            width: 2vw;
+            font-weight: 600;
+            font-size: larger;
+
+            display: flex;
+            text-align: center;
+
+            position: absolute;
+            top: 63vw;
+            left: 67vw;
+        }
+
+        h2:hover {
+            font-size: x-large;
+            color: rgba(0, 0, 0, 0.52);
+            cursor: help;
+        }
+    }
+
+    .oceano-pacifico-2 {
+
+        h2 {
+            width: 2vw;
+            font-weight: 600;
+            font-size: larger;
+
+            display: flex;
+            text-align: center;
+
+            position: absolute;
+            top: 51.5vw;
+            left: 85vw;
+        }
+
+        h2:hover {
+            font-size: x-large;
+            color: rgba(0, 0, 0, 0.52);
+            cursor: help;
+        }
+    }
+}
