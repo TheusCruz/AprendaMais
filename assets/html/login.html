@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa Mundi</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../css/matrix.css">
-    <link rel="stylesheet" href="../css/geografia.css">
-
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-
-    <!-- Cabeçario -->
 
     <header>
 
@@ -54,108 +51,42 @@
 
     </header>
 
-    <!-- Conteúdos -->
-
     <main>
 
         <div id="linha">
-            <span>Mapa Mundi</span>
+            <span>Login</span>
             <hr>
         </div>
 
-        <article class="brasil">
+        <form>
 
-            <img src="../img/mapa/001.png" alt="Brasil">
+            <input type="text" id="inputUser" class="text" placeholder="Usuário">
 
-        </article>
+            <input type="password" id="inputSenha" class="text" placeholder="Senha">
 
-        <article class="america-do-sul">
+            <button type="button" class="icon" onclick="ordenar()"><img src="../img/icones/olho.png" alt=""></button>
 
-            <img src="../img/mapa/002.png" alt="Grande Parte da America do Sul">
+            <section id="lembra-dados">
 
-        </article>
+                <input type="checkbox">
 
-        <article class="america-central">
+                <label>Lembrar meus dados para futuros acessos!</label>
 
-            <img src="../img/mapa/003.png" alt="America Central">
+            </section>
 
-        </article>
+            <button class="acessar" onclick="acessar()">ACESSAR</button>
 
-        <article class="america-do-norte">
+            <span>Esqueci minha Senha! <a href="#">Recupere aqui</a></span>
 
-            <img src="../img/mapa/004.png" alt="America Central">
+        </form>
 
-        </article>
+        <section class="cadastro">
 
-        <article class="groenlandia">
+            <span>Ainda não é cadastrado? <a href="#">Cadastre-se</a></span>
 
-            <img src="../img/mapa/005.png" alt="Groenlândia">
-
-        </article>
-
-        <article class="africa">
-
-            <img src="../img/mapa/006.png" alt="Africa">
-
-        </article>
-
-        <article class="australia">
-
-            <img src="../img/mapa/007.png" alt="Australia">
-
-        </article>
-
-        <article class="oriente-medio">
-
-            <img src="../img/mapa/008.png" alt="Oriente Médio">
-
-        </article>
-
-        <article class="sul-da-asia">
-
-            <img src="../img/mapa/009.png" alt="Sul da Asia">
-
-        </article>
-
-        <article class="norte-da-asia-e-europa">
-
-            <img src="../img/mapa/010.png" alt="Norte da Asis e Europa">
-
-        </article>
-
-        <article class="oceano-pacifico">
-
-            <h2>OCEANO PACÍFICO</h2>
-            
-        </article>
-
-        <article class="oceano-atlantico">
-
-            <h2>OCEANO ATLÂNTICO</h2>
-
-        </article>
-
-        <article class="oceano-artico">
-
-            <h2>OCEANO ÁRTICO</h2>
-
-        </article>
-
-        <article class="oceano-indico">
-
-            <h2>OCEANO ÍNDICO</h2>
-
-        </article>
-        
-        <article class="oceano-pacifico-2">
-
-            <h2>OCEANO PACÍFICO</h2>
-
-        </article>
+        </section>
 
     </main>
-
-    <!-- Roda Pé -->
 
     <footer>
 
@@ -204,6 +135,7 @@
 
     </footer>
 
+    <script src="../js/login.js"></script>
     <script src="../js/!atualizar.js"></script>
 </body>
 </html>

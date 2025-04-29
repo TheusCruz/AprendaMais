@@ -1,0 +1,117 @@
+main {
+  width: 100%;
+  height: auto;
+  color: #b0b0b0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  #linha {
+    width: 80%;
+    height: 5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1.5vw;
+
+    hr {
+      width: 70vw;
+      border: 0.2vw solid #44A1A0;
+    }
+
+    span {
+      font-size: 2.4vw;
+      font-weight: 700;
+      color: #44A1A0;
+    }
+  }
+
+  form {
+    width: 50vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5vw;
+
+    .text {
+      width: 50vw;
+      height: 2vw;
+      border: none;
+      border-bottom: solid #b0b0b0 2px;
+
+      margin-top: 2.5vw;
+    }
+
+    .text::placeholder {
+      position: absolute;
+      top: 0.2vw;
+      left: 1vw;
+      font-size: 1.1vw;
+    }
+
+    .icon {
+      width: 1.5vw;
+      height: 1.5vw;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+
+      position: absolute;
+      top: 27.7vw;
+      left: 72.4vw;
+
+      img {
+        width: 1.5vw;
+        height: 1.5vw;
+      }
+    }
+
+    #lembra-dados {
+      margin-top: 2vw;
+      margin-bottom: 1.5vw;
+      margin-left: 0.8vw;
+
+      label {
+        margin-left: 0.5vw;
+      }
+    }
+
+    .acessar {
+      width: 50vw;
+      height: 3.5vw;
+      background-color: #44A1A0;
+      border: 1px;
+      color: white;
+      font-size: large;
+      border-radius: 0.5vw;
+    }
+
+    span {
+      margin-top: 1.6vw;
+      margin-left: 15.4vw;
+    }
+  }
+
+  .cadastro {
+    margin-top: 0.6vw;
+    margin-bottom: 5vw;
+  }
+}
+
+/* 
+Esses codigos de baixo são somente para tirar aquele olho que fica no campo de input password, ele tava me incomodando. 
+Coloquei os dois para funcionar em todos os navegadores
+*/
+
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+
+input[type="password"]::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+}
