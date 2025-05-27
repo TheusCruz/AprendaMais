@@ -1,0 +1,52 @@
+main {
+  width: 100%;
+  height: auto;
+  color: #b0b0b0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+      font-size: 2vw;
+      font-weight: 700;
+      color: #44A1A0;
+    }
+
+  #linha {
+    width: 80%;
+    height: 5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1.5vw;
+
+    hr {
+      width: 51vw;
+      border: 0.2vw solid #44A1A0;
+    }
+  }
+
+  .campoAdiciona {
+    width: 80%;
+
+    input {
+      width: 60vw;
+      height: 2.5vw;
+      border-color: #44A1A0;
+
+      margin-top: 1vw;
+    }
+
+    button {
+      width: 15vw;
+      height: 2.5vw;
+    }
+  }
+
+  .lista {
+    width: 80%;
+  }
+}
