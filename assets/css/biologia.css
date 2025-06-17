@@ -213,3 +213,7 @@ main {
 .mostrar .modal {
     animation: animate-modal .3s;
 }
+
+.erro {
+    background-color: #ff0000;
+}
