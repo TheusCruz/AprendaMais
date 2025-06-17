@@ -158,6 +158,7 @@ main {
     .conhecimento {
         width: 80vw;
         height: auto;
+        cursor: pointer;
 
         display: flex;
         flex-direction: row;

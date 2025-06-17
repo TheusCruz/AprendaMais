@@ -1,0 +1,215 @@
+main {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+
+    .nome {
+
+        input {
+            width: 40vw;
+            height: 3vw;
+            background-color: #ececec;
+            border-radius: 10vw;
+            border: none;
+            box-shadow: 10px 5px 5px rgba(57, 57, 57, 0.5);
+
+            position: absolute;
+            top: 19vw;
+            left: 30vw;
+
+        }
+
+        .enviar {
+            width: 9vw;
+            height: 3vw;
+            background-color: #747474;
+            border-radius: 10vw;
+            box-shadow: none;
+            cursor: pointer;
+            color: #ececec;
+            font-weight: 500;
+            font-size: 1vw;
+            cursor: pointer;
+            border: none;
+
+            position: absolute;
+            top: 19vw;
+            left: 61.1vw;
+        }
+
+        label {
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+
+            position: absolute;
+            top: 16vw;
+            left: 42vw;
+        }
+    }
+
+    #linha {
+        width: 80%;
+        height: 5vw;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-left: 9vw;
+        margin-top: 1vw;
+
+        hr {
+            width: 75%;
+            border: 0.2vw solid #44A1A0;
+        }
+
+        span {
+            font-size: 2vw;
+            font-weight: 700;
+            color: #44A1A0;
+
+            margin-right: 2vw;
+        }
+    }
+
+    .campoQuiz {
+        width: 90%;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-top: 15vw;
+        margin-left: -70vw;
+
+        .pergunta {
+            width: 30vw;
+            height: 13vw;
+            background-color: #acacac4b;
+            border-radius: 10px;
+            box-shadow: 10px 5px 5px rgba(57, 57, 57, 0.5);
+
+            margin: 2vw;
+
+            h4 {
+                font-size: x-large;
+                color: #535353ca;
+
+                position: relative;
+                top: 2vw;
+                left: 2.3vw;
+            }
+
+            .btn {
+                padding: 1.5vw 10vw;
+                background-color: #747474;
+                border: none;
+                border-radius: 20px;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+                transition: background-color 0.5s;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+
+                display: inline;
+
+                position: relative;
+                top: 5.5vw;
+                left: 14.9vw;
+            }
+
+            .btn:hover {
+                background-color: #979797;
+            }
+
+        }
+    }
+}
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000004b;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+
+    display: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modal {
+    width: 60%;
+    min-width: 400px;
+    min-height: 200px;
+    background-color: #ffffff62;
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 10px;
+
+    h1 {
+        margin-bottom: 20px;
+        font-size: 2.1vw;
+    }
+
+    h6 {
+        font-size: 1.2vw;
+        font-weight: 400;
+    }
+
+    .alternativas {
+        display: flex;
+        justify-content: center;
+        margin-top: 3vw;
+        margin-left: -20vw;
+
+        .opicao1, .opicao2 {
+            margin-left: 10vw;
+            margin-right: -5vw;
+        }
+
+        input {
+            width: 15vw;
+        }
+    }
+}
+
+.fechar {
+    border-radius: 50%;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14pt;
+    cursor: pointer;
+
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+}
+
+@keyframes animate-modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.mostrar .modal {
+    animation: animate-modal .3s;
+}

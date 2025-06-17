@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biologia</title>
+    <link rel="stylesheet" href="../css/matrix.css">
+    <link rel="stylesheet" href="../css/biologia.css">
+</head>
+<body>
+
+    <header>
+
+        <section class="logo-inicial">
+
+            <a href="../../index.html" data-pagina="home">
+                <img src="../img/img/logo.png" alt="Logo do AprendeMais">
+            </a>
+
+        </section>
+
+        <nav>
+
+            <div class="icones">
+
+                <a href="#">
+                    <img src="../img/icones/search.png" alt="Icone de Pesquisa do AprendeMais">
+                </a>
+
+                <a href="login.html" data-pagina="login">
+                    <img src="../img/icones/user.png" alt="Icone de Usúario do AprendeMais">
+                </a>
+
+            </div>
+
+            <div class="menu">
+
+                <p>
+                    <a href="../../index.html" data-pagina="home">Inicio</a>
+                    |
+                    <a href="#">Categorias</a>
+                    |
+                    <a href="#">Áreas de conhecimento</a>
+                    |
+                    <a href="#">Ajuda</a>
+                </p>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div id="linha">
+            <span>Quiz de Biologia</span>
+            <hr>
+        </div>
+
+        <article class="nome">
+
+            <label>Informe o seu nome aqui:</label>
+
+            <input type="text">
+
+            <button class='enviar'><span>Enviar ></span></button>
+
+        </article>
+
+        <article class="campoQuiz">
+
+            <section id="primeiraPergunta" class='pergunta'>
+
+                <h4>1.Primeira Pergunta</h4>
+
+                <button onclick="openModal('1')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section id="segundaPergunta" class='pergunta'>
+
+                <h4>2.Segunda Pergunta</h4>
+
+                <button onclick="openModal('2')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section id="terceiraPergunta" class='pergunta'>
+
+                <h4>3.Terceira Pergunta</h4>
+
+                <button onclick="openModal('3')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section id="quartaPergunta" class='pergunta'>
+
+                <h4>4.Quarta Pergunta</h4>
+
+                <button onclick="openModal('4')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section id="quintaPergunta" class='pergunta'>
+
+                <h4>5.Quinta Pergunta</h4>
+
+                <button onclick="openModal('5')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section id="sestaPergunta" class='pergunta'>
+
+                <h4>6.Sesta Pergunta</h4>
+
+                <button onclick="openModal('6')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section id="setimaPergunta" class='pergunta'>
+
+                <h4>7.Setima Pergunta</h4>
+
+                <button onclick="openModal('7')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section id="oitavaPergunta" class='pergunta'>
+
+                <h4>8.Oitava Pergunta</h4>
+
+                <button onclick="openModal('8')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section id="nonaPergunta" class='pergunta'>
+
+                <h4>9.Nona Pergunta</h4>
+
+                <button onclick="openModal('9')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section id="desimaPergunta" class='pergunta'>
+
+                <h4>10.Desima Pergunta</h4>
+
+                <button onclick="openModal('10')" class="btn">Clique aqui</button>
+
+            </section>
+
+            <section class="resposta">
+
+                <span></span>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer>
+
+        <section class="logo-final">
+
+            <a href="../../index.html" data-pagina="home">
+                <img src="../img/img/logo.png" alt="Logo do AprendeMais">
+            </a>
+
+        </section>
+
+        <nav>
+
+            <section class="redes">
+
+                <a href="#">
+                    <img src="../img/redes/fb.png" alt="Icone do Facebook do AprendeMais">
+                </a>
+
+                <a href="#">
+                    <img src="../img/redes/instagram.png" alt="Icone do Instagram do AprendeMais">
+                </a>
+
+                <a href="#">
+                    <img src="../img/redes/twitter.png" alt="Icone do Twitter do AprendeMais">
+                </a>
+
+                <a href="#">
+                    <img src="../img/redes/youtube.png" alt="Icone do Youtube do AprendeMais">
+                </a>
+
+            </section>
+
+            <section class="autor">
+
+                <p>
+                    Desenvolvido por <a href="https://www.instagram.com/thews05/">Matheus Cruz</a> e <a
+                        href="https://www.instagram.com/jor.danaxx_/">Jordana</a>
+                    |
+                    <a href="https://www.ifms.edu.br/campi/campus-dourados">IFMS campus Dourados</a>
+                </p>
+
+            </section>
+
+        </nav>
+
+    </footer>
+
+    <section class="modal-container">
+
+        <div class="modal">
+
+            <button class="fechar" id="fechar">X</button>
+
+            <h1>Olá, mundo</h1>
+
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum soluta, nobis adipisci aperiam molestiae,
+                qui nostrum esse id deserunt aliquam perferendis? Ad dolor distinctio accusamus laudantium error
+                similique obcaecati hic.</h6>
+
+            <form class="alternativas">
+
+                <input type="radio" class="alternativa1 opicao1" name="opicao">
+                <label class="alternativa1 texto1">Alternativa</label>
+                <input type="radio" class="alternativa2 opicao2" name="opicao">
+                <label class="alternativa2 texto2">Alternativa</label>
+
+            </form>
+
+            <button>Enviar ></button>
+
+        </div>
+
+    </section>
+
+    <script src="../js/biologia.js"></script>
+</body>
+</html>
